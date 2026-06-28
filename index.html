@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ARCHI.STUDIO | Premium Architecture</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="navbar">
+    <div class="logo">ARCHI.STUDIO</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="cta-btn" id="openModal">Get in Touch</button>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>We Shape Modern Spaces</h1>
+      <p>Minimalist architecture and premium interior design for global clients.</p>
+      <a href="#projects" class="btn-primary">View Portfolio</a>
+    </div>
+  </section>
+
+  <section id="projects" class="projects-section">
+    <h2>Our Projects</h2>
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="residential">Residential</button>
+      <button class="filter-btn" data-filter="commercial">Commercial</button>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card" data-category="residential">
+        <img src="images/project2.jpg" alt="Minimalist Concrete Villa">
+        <div class="project-info">
+          <h3>Minimalist Concrete Villa</h3>
+          <p>Residential • Munich, Germany</p>
+        </div>
+      </div>
+      <div class="project-card" data-category="commercial">
+        <img src="images/project3.jpg" alt="Glass & Steel Office Hub">
+        <div class="project-info">
+          <h3>Glass & Steel Office Hub</h3>
+          <p>Commercial • Berlin, Germany</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <div id="contactModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" id="closeModal">&times;</span>
+      <h2>Start Your Project</h2>
+      <form id="contactForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Tell us about your project..." rows="4" required></textarea>
+        <button type="submit" class="btn-submit">Send Message</button>
+      </form>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-info">
+        <div class="footer-logo">ARCHI.STUDIO</div>
+        <p>Premium architecture and sustainable spatial design based in Germany.</p>
+      </div>
+      <div class="footer-contacts">
+        <h4>Connect with Us</h4>
+        <p>Email: studio@archi.de</p>
+        <p>Location: Berlin • Munich</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 ARCHI.STUDIO. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
